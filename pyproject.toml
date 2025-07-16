@@ -1,9 +1,12 @@
 [project]
-name = "d2l"
+name = "d2l-learnings"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "torch>=2.7.1",
+    "d2l==1.0.3",
+    "ipykernel>=6.29.5",
+    "torch==2.0.0",
+    "torchvision==0.15.1",
 ]
